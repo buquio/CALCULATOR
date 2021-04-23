@@ -1,0 +1,127 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+    font-size: 2rem;
+    background-color: aliceblue;
+    color: #363434;
+}
+.container{
+    width: 500px;
+    margin: 50px auto;
+    padding: 20px;
+    border-radius: 5px;
+    background-color: #2C354A;
+}
+/* color: #A5B2D3; text-color
+  color: white;  h1
+  color: #FC85AE;  h3 pink
+  color: #F5D9D6; lighter pink
+  background: #39445F; dark1 -panel
+  background: #303A52; dark2-body
+  background: #2C354A; darkest3 -nav  */
+.input-area{
+    height: 70px;
+    font-size: 2.5rem;
+    border: 1px solid #FC85AE;
+    border-radius: 5px;
+    padding: 15px 15px;
+    margin-bottom: 5px;
+    text-align: right;
+    /* margin-right: 5px; */
+    transition: all .2s ease-in-out;
+    background-color: #39445F;
+    
+}
+
+.input-area:hover{
+    border: 1px solid rgb(43, 42, 42);
+    box-shadow: inset 0px 2px 6px 0px rgba(0, 0, 0 0.5) ;
+}
+
+
+.operation{
+
+}
+
+.operators div{
+    display: inline-block;
+    background-color:#39445F ;
+    width: 103px;
+    border: 1px solid #FC85AE;
+    text-align: center;
+    padding: 10px;
+    margin: 20px 5px 10px 0px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: border-color .2s ease-in-out, background-color .2s, box-shadow .2s;
+
+}
+
+.operators div:hover{
+    border-color:#f7a2c0 ;
+    background-color:#4c5877;
+  box-shadow: 0px 1px 4px 0px rgba(0, 0, 0, 0.2);    
+}
+.operators div:active{
+    font-weight: bold;
+}
+
+.numbers-wrapper{
+    display: inline-block;
+    /* width: 70%; */
+}
+
+.numbers div{
+    display: inline-block;
+    width: 102px;
+    background-color:#39445F;
+    border: 1px solid #FC85AE;
+    text-align: center;
+    padding: 10px;
+    margin: 5px 5px 10px 0px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: border-color .2s ease-in-out, background-color .2s, box-shadow .2s;
+}
+
+.numbers div:hover{
+    border-color:#f7a2c0;
+    background-color:#4c5877;
+    box-shadow: 0px 1px 4px 0px rgba(0, 0, 0, 0.2);  
+
+}
+
+.numbers div:active{
+    font-weight: bold;
+}
+
+.equal-to{
+    display: inline-block;
+    width: 23%;
+    vertical-align: top;
+    background-color:#FC85AE;
+    color: #4c5877;
+    border: 1px solid #fff;
+    text-align: center;
+    padding: 125px 10px;
+    /* margin: 10px 0px 10px 0px; */
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all .2s ease-in-out;
+
+}
+.equal-to:hover{
+    border-color:#4f586e;
+    background-color:#f7ccc7;
+    box-shadow: 0px 1px 4px 0px rgba(0, 0, 0, 0.2);  
+}
+
+.equal-to:active{
+  font-weight: bold;
+
+}
